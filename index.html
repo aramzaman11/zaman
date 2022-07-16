@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ARAM ZAMAN </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('#btn1').click(function(){
+            $('#d1').slideToggle(1000)
+             $('#sor').hide(1000)
+          })
+        });
+        $(document).ready(function(){
+          $('#btn2').click(function(){
+            $('#d2').slideToggle(1000)
+             $('#sor').hide(1000)
+          })
+        });
+        $(document).ready(function(){
+          $('#btn3').click(function(){
+            $('#d3').slideToggle(1000)
+             $('#sor').hide(1000)
+          })
+        });
+        $(document).ready(function(){
+          $('#btn4').click(function(){
+            $('#d4').slideToggle(1000)
+             $('#sor').hide(1000)
+          })
+        });
+
+
+
+    </script>
+</head>
+<body dir='rtl'>
+    <div>
+        <center>
+            <button id="btn1" title="انقر هنا لعرض سورة الفاتحة">سورة الفاتحة</button>
+            <button id="btn2" title="انقر هنا لعرض سورة الاخلاص">سورة الاخلاص</button>
+            <button id="btn3" title="انقر هنا لعرض سورة الناس">سورة الناس</button>
+            <button id="btn4" title="انقر هنا لعرض سورة الكوثر">سورة الكوثر</button>
+        </center>
+   </div>
+
+   <br>
+   <center>
+    <img id="sor" src="https://rmze.cc/wp-content/uploads/2018/07/3194.jpeg" alt="logo">
+   </center>
+   <br>
+   <center>
+    <div id="d1">
+        <h3>بسم الله الرحمن الرحيم</h3>
+        <font size=4>الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ (2) الرَّحْمَنِ الرَّحِيمِ (3) مَالِكِ يَوْمِ الدِّينِ (4) إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ (5) اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ (6) صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ (7)</font>
+        <h3>صدق الله العظيم</h3>
+        <audio src="fat.mp3" controls></audio>
+    </div>
+    <br>
+    <div id="d2">
+        <h3>بسم الله الرحمن الرحيم</h3>
+        <font size=4>قُلْ هُوَ اللَّهُ أَحَدٌ (1) اللَّهُ الصَّمَدُ (2) لَمْ يَلِدْ وَلَمْ يُولَدْ (3) وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ (4)</font>
+        <h3>صدق الله العظيم</h3>
+        <audio src="akhlis.mp3" controls></audio>
+    </div>
+    <br>
+    <div id="d3">
+        <h3>بسم الله الرحمن الرحيم</h3>
+        <font size=4>قُلْ أَعُوذُ بِرَبِّ النَّاسِ (1) مَلِكِ النَّاسِ (2) إِلَهِ النَّاسِ (3) مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ (4) الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ (5) مِنَ الْجِنَّةِ وَالنَّاسِ (6)        </font>
+        <h3>صدق الله العظيم</h3>
+        <audio src="nis.mp3" controls></audio>
+    </div>
+    <br>
+    <div id="d4">
+        <h3>بسم الله الرحمن الرحيم</h3>
+        <font size=4>إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ (1) فَصَلِّ لِرَبِّكَ وَانْحَرْ (2) إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ (3)</font>
+        <h3>صدق الله العظيم</h3>
+        <audio src="kother.mp3" controls></audio>
+    </div>
+    <br>
+   </center>
+   <section>
+    <div class="bg"></div>
+    <h1 id="sda">❤️</h1>
+   </section>
+   <center>
+    <h3>هذا من فضل ربي</h3>
+    <br>
+    <ruby id="rob">
+        <rb>تم التصميم من قبل ارام زمان</rb>
+        <br>
+        <rt>DEVLOPER_ARAM-ZAMAN</rt>
+    </ruby>
+   </center>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            var scrollpos = $(window).scrollTop();
+            $('.bg').css({
+                'height' : + (scrollpos) + 'px'
+            })
+        })
+    });
+</script>
+    
+
+
+
+
+
+</body>
+</html>
